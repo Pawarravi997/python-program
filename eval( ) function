@@ -1,0 +1,67 @@
+# name=input('enter your name:')
+# print(name)
+# print(type(name))
+
+# age=eval(input('enter your age:'))
+# print(age)
+# print(type(age))
+
+# city=input('enter city name:')
+# print(city)
+# print(type(city))
+
+# salary=eval(input('enter your salary:'))
+# print(salary)
+# print(type(salary))
+
+
+#----travelling cost 
+
+# distance=eval(input('enter distance:'))
+# petrol_price=eval(input('petrol price per liter:'))
+# avg=eval(input('enter avg of the bike:'))
+# total_cost=distance/avg*petrol_price
+# print(f"Distance is:{distance}\n Petrol price per liter is:{petrol_price}\n Average of bike is: {avg}\n Total cost for travel is:{total_cost}")
+
+
+#----calculate total amount of ticket
+
+# print('\nRavi Movie Hub')
+# name=input('\nenter name of customer:')
+# num_of_ticket=eval(input('enter number of ticket:'))
+# ticket_price=eval(input('ente price of 1 ticket:'))
+# total_amount=num_of_ticket*ticket_price
+# print(f'\n Booking details: \n\nname :{name}\n number of ticket:{num_of_ticket}\n ticket price is:{ticket_price}\n total amount:{total_amount}\n Thank you for booking')
+
+
+#----calculate selling price
+
+# MRP=eval(input('enter MRP :'))
+# Discount=eval(input('enter Discount % :'))
+# Discount_amount=MRP*Discount/100
+# selling_price=MRP-Discount_amount
+# print(f'\nMRP of the product is:{MRP}\n Discount Amount is:{Discount_amount}\n Selling price is:{selling_price}')
+
+
+#----salary slip
+
+# name=input('enter your name:')
+# salary=eval(input('enter basic salary :'))
+# HRA=salary*20/100
+# DA=salary*10/100
+# Gross_salary=salary+HRA+DA
+# print(f'\nsalary slip of {name}')
+# print(f'\nBasic salary is:{salary}\n HRA are :{HRA}\n DA are :{DA}\n Gross salary is :{Gross_salary}')
+
+
+#----GST (CGST & SGST)
+
+# item=input('\n enter item name here:')
+# price=eval(input('enter price of per item:'))
+# quantity=eval(input('enter Quantity of item:'))
+# item_price=price*quantity
+# cgst=item_price*5/100
+# sgst=item_price*5/100
+# total_Gst=cgst+sgst
+# total_price=total_Gst+item_price
+# print(f'\n Purcheased item is:{item}\n price of item:{price}\n item quantity is:{quantity}\n total price:{item_price}\n Item price after GST is:{total_price}')
