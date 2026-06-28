@@ -1,6 +1,6 @@
 # python-program
 
-----emp details
+#----emp details
 
 name=input('enter your name:')
 city=input("enter your city name:")
@@ -12,7 +12,7 @@ print(f'\nyour name is : {name} \n salary is:{salary} \n department name is:{dep
 
 
 
-----arithematic operation
+#----arithematic operation
 
 num1=int(input('enter num1='))
 num2=int(input('enter num2='))
@@ -22,9 +22,9 @@ mult=num1*num2
 print(f'Addition of {num1} & {num2} is {add} \n substraction of {num1} C {num2} are {sub} \n multiplication of {num1} & {num2} is {mult}')
 
 
-----sqare 
-          sqr=num**2 
-          sqr=num*num
+#----sqare 
+         # sqr=num**2 
+         # sqr=num*num
 
 num=int(input('enter number:'))
 sqr=num**2
@@ -33,7 +33,7 @@ print(f'Square of a {num} is {sqr}')
 
 
 
-----average
+#----average
 
 sub1=int(input('enter marks of sub1='))
 sub2=int(input('enter marks of sub2='))
@@ -43,7 +43,7 @@ avg=(sub1+sub2+sub3+sub4)/4
 print(f'Average is {avg}')
 
 
-----increment %
+#----increment %
 
 salary=int(input('enter salary:'))
 increment_percentage=int(input('enter increment % :'))
@@ -52,7 +52,7 @@ total_salary=inc_salary+salary
 print(f'\nold salarty is:{salary} \n increment salary amount by:{inc_salary}  \n Total salary is :{total_salary}')
 
 
-----discount
+#----discount
 
 price=int(input('enter price:'))
 discount=int(input('discount:'))
