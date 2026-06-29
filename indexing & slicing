@@ -1,0 +1,46 @@
+what is data type:
+==================
+         1. data type is a classification that tell python interpeter what kind of value of variable can store and what operation can be perform on that value
+
+         2.Two  types of data type :
+
+                       a.fundamental data type ==  1.int: whole number---> A number without decimal point called as whole number. (eg.year,age,pin code,mobile number.)
+                                                                   2.float: decimal number---> A number with demical or floating point called as a decimal number.  (eg.height,weight,distance.)
+                                                                   3.complex :it is used to represent a complex number 
+                                                                   4.string: text--->string is a collection of character within a ( ' _',"_",'''_''') a single,double and tripal cote.
+                                                                             --- we can access character and string by using indexing and slicing
+
+                                                                      #indexing (variable name[index number])
+                                                                                
+                                                                             --indexing is used to acess the character 
+                                                                             --indexing is a techgnique it is used to acess string character ,string
+                                                                             -- index in string is nothing but the index value of a single character 
+                                                                             --index is start from always 0. index are postive index or forword index ( left to right)
+                                                                             -- index is also start from -1 these are a negative index or reverse index( right to left)
+                                                                       e.g: name="ravi"
+                                                                              print(name[2])          o/p = v
+
+
+                                                                       #---slicing    (variable name[start_index: end_index:step_value])
+
+                                                                                start_index: slicing is start from Start index
+                                                                                end_index: slicing will stop BEFORE End Index
+                                                                                step_value: difference
+
+                                                                            --it used to acess such part of a character or multiple character
+
+                                                                      e.g: name='ravi pawar'
+                                                                            print(name[0:4:1])       o/p  = ravi
+ 
+                                                                  5. Boolean:
+
+
+
+                       b.Collective data type  == list
+                                                               tuple
+                                                               set
+                                                               dict
+                                                               frozenset
+                                                               range
+
+     
