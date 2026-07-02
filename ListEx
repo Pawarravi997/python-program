@@ -1,0 +1,101 @@
+#----list is a mutable so we change the element using their index number and change will be seen in the same location
+
+# name=['rohit','irat','kunal','rajat']
+# print(id(name))
+# name[1]='virat'
+# print(name)
+# print(id(name))
+
+
+#----immutable
+
+# name='ravi'
+# print(id(name))
+# fname= name.replace('ravi','rahul')
+# print(name)
+# print(id(fname))
+# print(fname)
+
+#-----heterogenious elements (different data types element are allowed in this)
+
+# number=[10,20,30.6,'ravi','rahul',[10,20,30]]
+# print(number)
+
+
+#----duplicate are allowed but in set duplicate are not allowed
+
+# num=[10,20,30,40,30,50,70,40,10]  #list
+# print(num)
+
+# num={10,20,30,40,30,50,70,40,10}  #set (set is wriiten value withun a curly braces {} )
+# print(num)
+
+
+# -----create a list of even no.from 1 -10 by list
+
+# even_number=[2,4,6,8,10]
+# print(even_number)
+
+
+#======================== Day 2 =================================================================
+
+
+
+# number=[11,22,33,44,55,66,77]
+# print(number[0:3:1])
+# print(number[-3:1:-1])
+# print(number[0:6:2])
+# print(number[-2:-7:-2])
+# print(number[1]+number[-2])
+
+#--------dafault value
+
+#default value of the forword is 0
+#default value of the reverse is -1
+#step value is always 1 if we dont assign they will be get default
+# number=[11,22,33,44,55,66,77]
+# print(number[:7:1])
+# print(number[:0:-1])
+# print(number[::-1])
+
+
+# number=[10,20,30,40,50,60,70,80,90]
+# print(number[:4]) 
+# print(number[:-4:-1]) 
+# print(number[-4:len(number)]) 
+# print(number[2: :-1])  
+# print(number[::-1])
+
+
+#----Nested list  
+# using indexing ( list is in another list this is show only elment but its acutually a list )
+
+# number=[10,20,30,40,[11,22,33,[1,2,3,4,5,6],44,55],50,60,70,80]
+# print(len(number))
+# print(number[4]) #[11,22,33,[1,2,3,4,5,6],44,55]
+# print(number[4][3]) #[1,2,3,4,5,6]
+# print(number[2])
+# print(number[-3])
+# print(number[4][1])
+# print(number[4][-1])
+# print(number[4][3][-2])
+# print(number[-4])
+# print(number[4][-1]) #print(number[-5][-1])
+# print(number[4][3][2])
+
+
+#-----using slicing
+
+# number=[10,20,30,40,[11,22,33,[1,2,3,4,5,6],44,55],50,60,70,80]
+# print(number[-4:-1])
+# print(number[-7::-1]) 
+# print(number[4][:3]) #[11,22,33]
+# print(number[4][4::-2]) #[44,33,11]
+# print(number[4][3][::-1])
+# print(number[4][-2::-2])
+# print(number[4][-3][::-1])
+# print(number[::3])
+
+# name=[[[[['rajeshkumar']]]]]
+# print(len(name))
+# print(name[0][0][0][0][0][:-5:-1]) #ramu
