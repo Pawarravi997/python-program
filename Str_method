@@ -1,0 +1,119 @@
+# method is a reusable block of code it is used to perform operation on a data 
+
+# name='ravi pawar'  #----to convert upper
+# print(name.upper())
+# name='PAWAR'
+# print(name.lower())   #----to convert lower
+# print(name.title())      #----to convert title form each word firstletter bwcome capital
+# print(name.capitalize())    #----to convert capitalized
+
+
+#---isalpha  (used to check only aplphabetical character and shows true in output)
+
+# name='ravi'
+# print(name.isalpha())
+# name='ravi pawar' # it shows error bz after ravi is one space thats why
+# print(name.isalpha())
+# name='ravi1'   # it shows error bz after ravi is number  thats why
+# print(name.isalpha())
+
+
+#---isnumeric (used to check only number and shows true in output)
+
+# age='32'
+# print(age.isnumeric())
+
+
+#---isalanum (used to check only aplphabetical character and number  shows true in output)
+
+# name='ravi123'
+# print(name.isalnum())
+# name='ravi123@'
+# print(name.isalnum())
+
+
+#---isspace(used to check space true in output)
+# name='ravi pawar'
+# print=(name.isspace())
+
+
+#------isreplace (it used to relace the value)
+
+# course='data analytics'
+# print(course.replace('analytics','science'))
+# defination='java is dynanamic  java is a simple language also java is a object oriented programming language...'
+# print(defination.replace('java','python')) 
+# defination='java is dynanamic  java is a simple language also java is a object oriented programming language...'
+# print(defination.replace('java','python',-1)) #-1 is used to replace all java by python
+# defination='java is dynanamic  java is a simple language also java is a object oriented programming language...'
+# print(defination.replace('java','python',2)) # here 2 is to replace only two times java with the python
+
+
+#------count('name_of_count_',start_index,end_index) (it used to count the value)
+# name='ravi pawar'
+# print(name.count('r')) # it used to count number of character which is present inn the all character
+# defination='java is dynanamic  java is a simple language also java is a object oriented programming language'
+# print(defination.count('java'))
+# print(defination.count('java',12))
+
+# name='omkar is a topper student of  The kiran academy'
+# print(name.count('a',0,13))
+
+#------startwith('name_of_start_var_chack',start_index,end_index) (it used to check/startwith the value)
+
+# course='The Kiran Academy'
+# print(course.startswith("T",0))
+
+# course='The Kiran Academy'
+# # print(course.startswith("K",4))
+# print(course.startswith("K",4,-9))
+
+
+
+#----split method
+
+# name='pyhton programming language'
+# print(name.split())
+# print(name.split('a'))
+# fname="narendea damodar modi"
+# print(fname.split('n'))
+# print(fname.split('e'))
+
+
+#----strip method
+
+# name="narendea damodar modi"
+# print(name.rstrip('i'))
+# print(name.lstrip('n'))
+# name='nitin'
+# print(name.strip())
+# print(name.rstrip('n'))
+# print(name.lstrip('n'))
+
+#----center method
+
+# name='ravi pawar'
+# print(name.center(50,'-'))
+# print(name.center(20,'='))
+
+
+#----join method
+
+# name=['ravi','udhav','pawar']
+# fname=' '.join(name)
+# print(fname)
+
+# course=['data science','data analytics','python fullstack']
+# course1='_'.join(course)
+# print(course1)
+
+# mail=['pawarravi5674','gmailcom']
+# email='@'.join(mail)
+# print(email)
+
+
+#----isupper method & islower
+
+# name=['RAVI']
+# name1=''.isupper()
+# print(name1)
