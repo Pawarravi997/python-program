@@ -52,7 +52,9 @@ total_salary=inc_salary+salary
 print(f'\nold salarty is:{salary} \n increment salary amount by:{inc_salary}  \n Total salary is :{total_salary}')
 
 
-#----discount
+#----discount 
+#disc_price=(price*discount/100)
+#final_price=price-disc_price
 
 price=int(input('enter price:'))
 discount=int(input('discount:'))
