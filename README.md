@@ -33,7 +33,7 @@ print(f'Square of a {num} is {sqr}')
 
 
 
-#----average
+#----average  (total / number of quantity)
 
 sub1=int(input('enter marks of sub1='))
 sub2=int(input('enter marks of sub2='))
