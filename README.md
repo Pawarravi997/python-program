@@ -43,7 +43,7 @@ avg=(sub1+sub2+sub3+sub4)/4
 print(f'Average is {avg}')
 
 
-#----increment %
+#------increment %
 
 salary=int(input('enter salary:'))
 increment_percentage=int(input('enter increment % :'))
