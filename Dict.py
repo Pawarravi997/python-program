@@ -84,7 +84,12 @@
 # python_batches={1336:{"id101":{"name":"ravi"},"id102":{"name":"khushal"}},1335:{"id101":{"name":"rahul"},"id102":{"name":"pankaj"}}}
 # print(python_batches)
 
-#ex:6
-India={"s1":{"d":['sd1','sd2','sd3']},"s2":{"d2":["sb1","sb2","sd3"]},"s3":{"d":["sb1","sb2","sd3"]}}
+# #ex:6
+# India={"s1":{"d":['sd1','sd2','sd3']},"s2":{"d2":["sb1","sb2","sd3"]},"s3":{"d":["sb1","sb2","sd3"]}}
 
-country={"s1":{"d":['sd1','sd2','sd3']}}
+# country={"s1":{"d":['sd1','sd2','sd3']}}
+
+#using key get value of that key ---code with harry
+# dictt={'apple':'saparchand',"skin":"twacha"}
+# word=(input('enter knoe meaning of that word:'))
+# print(dictt[word])
