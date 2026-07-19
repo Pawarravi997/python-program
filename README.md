@@ -1,6 +1,6 @@
 # python-program
 
-#----emp details
+#------emp details
 
 name=input('enter your name:')
 city=input("enter your city name:")
