@@ -1,6 +1,6 @@
 # python-program
 
-#-------emp details
+#-------employee details
 
 name=input('enter your name:')
 city=input("enter your city name:")
@@ -12,7 +12,7 @@ print(f'\nyour name is : {name} \n salary is:{salary} \n department name is:{dep
 
 
 
-#-------arithematic operation
+#-------Arithematic operation
 
 num1=int(input('enter num1='))
 num2=int(input('enter num2='))
@@ -22,7 +22,7 @@ mult=num1*num2
 print(f'Addition of {num1} & {num2} is {add} \n substraction of {num1} C {num2} are {sub} \n multiplication of {num1} & {num2} is {mult}')
 
 
-#----square 
+#----square of the given number
          # sqr=num**2 
          # sqr=num*num
 
@@ -33,7 +33,7 @@ print(f'Square of a {num} is {sqr}')
 
 
 
-#------average  (total / number of quantity)
+#------Average  (total / number of quantity)
 
 sub1=int(input('enter marks of sub1='))
 sub2=int(input('enter marks of sub2='))
