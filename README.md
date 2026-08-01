@@ -22,7 +22,7 @@ mult=num1*num2
 print(f'Addition of {num1} & {num2} is {add} \n substraction of {num1} C {num2} are {sub} \n multiplication of {num1} & {num2} is {mult}')
 
 
-#----square of the given number
+#-----square of the given number
          # sqr=num**2 
          # sqr=num*num
 
