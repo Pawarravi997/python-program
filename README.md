@@ -12,7 +12,7 @@ print(f'\nyour name is : {name} \n salary is:{salary} \n department name is:{dep
 
 
 
-#-------Arithematic operation
+#-----Arithematic operation
 
 num1=int(input('enter num1='))
 num2=int(input('enter num2='))
