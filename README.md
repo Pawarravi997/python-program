@@ -1,6 +1,5 @@
 # python-program
-#-------
---employee details
+#---------employee details
 
 name=input('enter your name:')
 city=input("enter your city name:")
