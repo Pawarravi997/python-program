@@ -1,7 +1,5 @@
 # python-program
 
-
-
 #---------employee details
 
 name=input('enter your name:')
