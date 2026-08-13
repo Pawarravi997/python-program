@@ -10,6 +10,7 @@ gender=input("enter your gender:")
 salary=int(input('enter salary :'))
 dep=input('enter department name:')
 print(f'\nyour name is : {name} \n salary is:{salary} \n department name is:{dep} \nyou are live in :{city} \nyou are {age} year old \nyour {gender}'
+
 #-----Arithematic operation
 
 num1=int(input('enter num1='))
