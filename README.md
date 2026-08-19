@@ -1,6 +1,6 @@
 
 # python-program
-99
+9
 #---employee details
 
 name=input('enter your name:')
